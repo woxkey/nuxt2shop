@@ -1,0 +1,27 @@
+[{
+    "image": "/images/laptop.png",
+    "name": "Dell HP",
+    "category": "electronics",
+    "description": "aaaaaaaaaaaaaaaaaaaaaa",
+    "cost": 200000,
+    "qty": 100,
+    "orders": 10
+},
+{
+    "image": "/images/laptop.png",
+    "name": "Dell HP",
+    "category": "electronics",
+    "description": "aaaaaaaaaaaaaaaaaaaaaa",
+    "cost": 200000,
+    "qty": 100,
+    "orders": 10
+},
+{
+    "image": "/images/laptop.png",
+    "name": "Dell HP",
+    "category": "electronics",
+    "description": "aaaaaaaaaaaaaaaaaaaaaa",
+    "cost": 200000,
+    "qty": 100,
+    "orders": 10
+}]
