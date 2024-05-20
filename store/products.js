@@ -2,9 +2,15 @@ export const state = () => ({
   list: [],
 })
 
+export const getters = {
+  getProducts(state) {
+    return state.list
+  },
+}
+
 export const mutations = {
-  setList(state, list) {
-    state.list = list
+  setProducts(state, products) {
+    state.list = products
   },
   add(state, text) {
     state.list.push({
@@ -23,7 +29,7 @@ export const mutations = {
 export const actions = {
   async fetchProducts({ commit }) {
     const response = await fetch('/data/products.json')
-    const list = await response.json()
-    commit('setList', list)
+    const products = await response.json()
+    commit('setProducts', products)
   },
 }

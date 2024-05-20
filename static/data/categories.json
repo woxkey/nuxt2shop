@@ -1,0 +1,10 @@
+[{"name": "all", "id": 0}, 
+{"name": "electronics", "id": 1}, 
+{"name": "forHouse", "id": 2}, 
+{"name": "forChildren", "id": 3}, 
+{"name": "forFun", "id": 4},
+{"name": "forSkin", "id": 5},
+{"name": "books", "id": 6},
+{"name": "games", "id": 7},
+{"name": "jewelary", "id": 8}
+]
